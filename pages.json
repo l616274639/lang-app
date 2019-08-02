@@ -1,0 +1,54 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/common/login/login",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/common/homepage/homePage"
+		},
+		{
+			"path": "pages/common/message/message"
+		},
+		{
+			"path": "pages/common/setting/setting"
+		},
+		{
+			"path": "pages/common/setting/changeLanguage"
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#0FAEFF",
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"list": [{
+				"pagePath": "pages/common/homepage/homePage",
+				"iconPath": "static/tabBar/homePage.png",
+				"selectedIconPath": "static/tabBar/homePageHL.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/common/message/message",
+				"iconPath": "static/tabBar/message.png",
+				"selectedIconPath": "static/tabBar/messageHL.png",
+				"text": "消息"
+			}, {
+				"pagePath": "pages/common/setting/setting",
+				"iconPath": "static/tabBar/setting.png",
+				"selectedIconPath": "static/tabBar/settingHL.png",
+				"text": "设置"
+			}
+		]
+	}
+}

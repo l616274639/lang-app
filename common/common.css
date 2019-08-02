@@ -1,0 +1,11 @@
+.content {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	padding: 20upx;
+}
+
+.space-area{
+	background-color: white;
+	margin-bottom: 30upx;
+}
